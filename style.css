@@ -1,0 +1,68 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #3f84f2
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+margin: 0px 90px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   margin: 0px 30px;
+   text-transform: capitalize;
+
+}
+.lkol{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+.container{
+  
+    margin-top: 150px;
+}
+.container h1{
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-left: 60px;
+}
+.lorem{
+    margin-left: 60px;
+    color: white;
+}
+button{
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    border: none;
+    text-transform: uppercase;
+}
+.pepsi{
+   margin-top:200px; 
+   margin-right: 200px;
+}
+.social-media{
+    font-size: 40px;
+   
+}
+.social-media a{
+    color: white;
+}
+footer{
+    margin-top: 60px;
+    text-align: center;
+}
+.les-logos{
+    display: grid;
+    flex-direction: column;
+
+}
