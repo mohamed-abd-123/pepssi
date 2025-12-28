@@ -83,3 +83,33 @@ footer{
    width: 25%;
 
 }
+.pepsi img{
+   animation: sliderX 3s;  
+}
+@keyframes sliderX {
+    from {
+     transform: translateX(100%);
+     opacity: 0;
+    }
+
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+}
+
+footer img {
+    animation: sliderY 3s;
+}
+
+@keyframes sliderY {
+    from {
+    transform: translateY(100%);
+    opacity: 0;
+    }
+
+    to {
+   transform: translateY(0%);
+   opacity: 1;
+    }
+}
